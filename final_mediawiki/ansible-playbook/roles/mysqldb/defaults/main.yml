@@ -1,9 +1,0 @@
----
-packages: 
-  - mariadb-server
-  - mariadb
-  - expect
-  - MySQL-python
-
-db_name: wikidatabase
-wiki_db_user: wiki
