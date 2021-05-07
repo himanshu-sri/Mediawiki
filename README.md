@@ -79,6 +79,7 @@ Ansible Playbook
 7. Run Ansible Playbook site.yml which will install DB and Webserver as per roles:
 
 	```cd ../ansible-playbook ```
+	
   	```ansible-playbook site.yml -i ec2.py --private-key mediawiki.pem --ask-vault-pass -u ec2-user -v```
    Note: vault key is mw.
 
