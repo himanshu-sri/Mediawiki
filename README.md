@@ -81,6 +81,7 @@ Ansible Playbook
 	```cd ../ansible-playbook ```
 	
   	```ansible-playbook site.yml -i ec2.py --private-key mediawiki.pem --ask-vault-pass -u ec2-user -v```
+   
    Note: vault key is mw.
 
 9. Open the Browser to complete the installation wizard. 
